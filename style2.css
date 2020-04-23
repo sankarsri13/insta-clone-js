@@ -1,0 +1,29 @@
+.profile-pic {
+  border: 2px solid #dc3075;
+  border-radius: 50%;
+
+  width: 50px;
+  height: 50px;
+}
+
+h1 {
+  font-size: 15px;
+  opacity: 0.6;
+}
+h2 {
+  font-size: 17px;
+}
+/* .one-user {
+  display: flex;
+} */
+.update {
+  line-height: 1px;
+  font-size: 13px;
+}
+.profile-pic {
+  float: left;
+  margin-left: 0;
+}
+body {
+  background-color: white;
+}

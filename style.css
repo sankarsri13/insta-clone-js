@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+}
+.nav-bar {
+  padding: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.2rem;
+  box-shadow: 0px 2px 5px gray;
+  font-family: "Pacifico", cursive;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+#search-bar {
+  text-align: center;
+  width: 20%;
+  height: 30px;
+}
+#fa {
+  transition: 0.3s;
+}
+#fa:hover {
+  transform: scale(1.4);
+}
+.stories {
+  margin-top: 20px;
+  display: flex;
+  overflow-x: auto;
+  justify-content: start;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 20px;
+  padding-top: 0;
+}
+.user-whole {
+  margin-left: 2.2rem;
+
+  margin-bottom: 10px;
+}
+.one {
+  margin-left: 1px;
+}
+
+.user {
+  text-align: center;
+}
+.user-name {
+  margin-top: 5px;
+  font-family: "Titillium Web", sans-serif;
+}
+.posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.each-post {
+  padding: 2px;
+  width: 600px;
+  border: 0.3px solid gray;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  box-shadow: 0px 2px 5px gray;
+  background-color: #ffffff;
+}
+#post-name {
+  margin-top: 3px;
+  margin-bottom: 5px;
+  font-family: "Titillium Web", sans-serif;
+}
+.user-post {
+  width: 100%;
+  max-height: 500px;
+  text-align: center;
+}
+.actions {
+  margin-left: 10px;
+  font-size: 2rem;
+}
+#faa {
+  margin-left: 10px;
+}
+#caption {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  font-family: "Titillium Web", sans-serif;
+  margin-bottom: 10px;
+}
+#user-name {
+  font-family: "Work Sans";
+}
+.fap {
+  border: 3px solid gray;
+  border-radius: 50%;
+  padding: 10px;
+}
+#caption,
+.cap {
+  display: inline;
+}
+.cap {
+  font-size: 0.9rem;
+  font-family: "Titillium Web", sans-serif;
+}
+.show-block {
+  display: none;
+}
+@media only screen and (max-width: 1000px) {
+  #search-bar {
+    display: none;
+  }
+  .right-container {
+    display: none;
+  }
+  .each-post {
+    width: 400px;
+  }
+  .show-block {
+    display: block;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.stories-column {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.us {
+  display: inline;
+}
+body {
+  background-color: #fafafa;
+}
+.suggestions {
+  border: 0.5px solid gray;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ffffff;
+  height: 270px;
+}
+.one-user {
+}
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+}
+.sugg {
+  font-size: 15px;
+  opacity: 0.7;
+}
+.username {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+.update {
+  line-height: 28px;
+  font-size: 15px;
+}
+.profile-pic2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.likes {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.prof-pic2 {
+  border: 4px solid #d53a9d;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.footer {
+  position: fixed;
+  height: 35px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 8px 5px gray;
+
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 10px;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 10px 10px 10px gray;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+.modal-content {
+  padding: 20px;
+}
+.bc h2 {
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+  margin-bottom: 10px;
+  margin-top: 6px;
+  color: white;
+}
+.bc {
+  background-color: rgba(52, 73, 94, 0.6);
+  border-radius: 10px;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+.bc #un {
+  width: 100%;
+  border: 2px solid rgba(52, 73, 94, 1);
+  border-radius: 5px;
+  outline: none;
+}
+.modal-content #add {
+  width: 100%;
+  background-color: rgba(52, 73, 94, 1);
+  color: #ffffff;
+  padding: 4px;
+  margin-top: 5px;
+  font-size: 1.2rem;
+  border: none;
+  height: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 8px;
+}
+.modal-content #add:hover {
+  background-color: #ffffff;
+  color: rgba(52, 73, 94, 1);
+  border: 2px solid rgba(52, 73, 94, 1);
+  border-radius: 8px;
+}
+.modal-content hr {
+  width: 100%;
+  margin-top: 5px;
+  height: 5px;
+  background-color: rgba(44, 62, 80, 1);
+}
+#close-modal {
+  font-size: 2rem;
+  cursor: pointer;
+}
